@@ -1,0 +1,9 @@
+2022-03-25 22:00:33.550  INFO 1392 --- [main] com.feidea.blog.BlogApplicationTests     : Starting BlogApplicationTests using Java 1.8.0_281 on SD-20190828SNSW with PID 1392 (started by Administrator in C:\Users\Administrator\eclipse-workspace\blog)
+2022-03-25 22:00:33.550 DEBUG 1392 --- [main] com.feidea.blog.BlogApplicationTests     : Running with Spring Boot v2.6.2, Spring v5.3.14
+2022-03-25 22:00:33.550  INFO 1392 --- [main] com.feidea.blog.BlogApplicationTests     : The following profiles are active: dev
+2022-03-25 22:00:34.671  INFO 1392 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-03-25 22:00:34.671  INFO 1392 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2022-03-25 22:00:34.721  INFO 1392 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 20 ms. Found 0 Redis repository interfaces.
+2022-03-25 22:00:38.365  INFO 1392 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2022-03-25 22:00:39.815  WARN 1392 --- [main] arterDeprecationWarningAutoConfiguration : spring-boot-starter-redis is deprecated as of Spring Boot 1.4, please migrate to spring-boot-starter-data-redis
+2022-03-25 22:00:39.845  INFO 1392 --- [main] com.feidea.blog.BlogApplicationTests     : Started BlogApplicationTests in 6.967 seconds (JVM running for 8.461)

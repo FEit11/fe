@@ -1,0 +1,8 @@
+2022-01-28 02:38:12.193  INFO 9832 --- [restartedMain] com.feidea.BlogApplication               : Starting BlogApplication using Java 1.8.0_281 on SD-20190828SNSW with PID 9832 (C:\Users\Administrator\eclipse-workspace\blog\target\classes started by Administrator in C:\Users\Administrator\eclipse-workspace\blog)
+2022-01-28 02:38:12.193  INFO 9832 --- [restartedMain] com.feidea.BlogApplication               : The following profiles are active: pro
+2022-01-28 02:38:13.568  WARN 9832 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : This listener must only be nested within Server elements, but is in [TomcatEmbeddedContext].
+2022-01-28 02:38:15.193  INFO 9832 --- [restartedMain] com.feidea.BlogApplication               : Started BlogApplication in 3.571 seconds (JVM running for 4.593)
+2022-01-28 03:10:51.097  INFO 4488 --- [restartedMain] com.feidea.BlogApplication               : Starting BlogApplication using Java 1.8.0_281 on SD-20190828SNSW with PID 4488 (C:\Users\Administrator\eclipse-workspace\blog\target\classes started by Administrator in C:\Users\Administrator\eclipse-workspace\blog)
+2022-01-28 03:10:51.097  INFO 4488 --- [restartedMain] com.feidea.BlogApplication               : The following profiles are active: pro
+2022-01-28 03:10:52.457  WARN 4488 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : This listener must only be nested within Server elements, but is in [TomcatEmbeddedContext].
+2022-01-28 03:10:54.067  INFO 4488 --- [restartedMain] com.feidea.BlogApplication               : Started BlogApplication in 3.569 seconds (JVM running for 4.585)
