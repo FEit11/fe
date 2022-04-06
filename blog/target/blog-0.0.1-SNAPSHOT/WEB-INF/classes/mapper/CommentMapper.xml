@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.feidea.dao.CommentMapper">
+
+    <select id="findByBlogIdParentIdNull" resultType="com.feidea.entity.Comment">
+        select *
+        from t_comment c
+        where c.blog_id = #{blogId} and c.parent_comment_id = #{blogParentId}
+        order by c.create_time desc
+    </select>
+
+    <!--查询一级子评论-->
+    <select id="findByBlogIdParentIdNotNull" resultType="com.feidea.entity.Comment">
+        select *
+        from t_comment c
+        where c.blog_id = #{blogId} and c.parent_comment_id = #{id}
+        order by c.create_time desc
+    </select>
+
+    <!--查询二级子评论-->
+    <select id="findByBlogIdAndReplayId" resultType="com.feidea.entity.Comment">
+        select *
+        from t_comment c
+        where c.blog_id = #{blogId} and c.parent_comment_id = #{childId}
+        order by c.create_time desc
+    </select>
+
+    <!--新增评论-->
+    <insert id="saveComment" parameterType="com.feidea.entity.Comment">
+        insert into t_comment (nickname,email,content,avatar,create_time,blog_id,parent_comment_id,admin_comment)
+        values (#{nickname},#{email},#{content},#{avatar},#{createTime},#{blogId},#{parentCommentId},#{adminComment});
+    </insert>
+
+    <delete id="deleteComment">
+        delete from t_comment where id = #{id};
+    </delete>
+</mapper>
+    

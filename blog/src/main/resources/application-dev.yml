@@ -1,0 +1,30 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/blog?useUnicode=true&characterEncoding=utf-8
+    username: root
+    password: 123456
+  redis:
+    host: localhost
+    password: "1234"
+    port: 6379
+
+logging:
+  level:
+    root: info
+    com.feidea: debug
+  file:
+    path: log/blog-dev.log
+
+mybatis:
+  type-aliases-package: com.star.entity
+  mapper-locations: classpath:mapper/*.xml
+  configuration:
+      map-underscore-to-camel-case: true
+
+pagehelper:
+  helper-dialect: mysql
+  reasonable: true
+
+comment.avatar: /images/avatar.png
+message.avatar: /images/avatar.png
