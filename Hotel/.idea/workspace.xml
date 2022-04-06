@@ -1,0 +1,328 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="Hotel:war exploded" />
+    </artifacts-to-build>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="350b4790-c0af-4fd8-9b72-ff2e7b24a682" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="spring-beans.schema" />
+        <option value="FxmlFile" />
+        <option value="mybatis-cfg.xml" />
+        <option value="Interface" />
+        <option value="Jsp File" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="false" />
+    <option name="FILTER_DEBUG" value="false" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="D:\idea-\apache-maven-3.6.1\bin\repository" />
+        <option name="mavenHome" value="D:/idea-/apache-maven-3.6.1" />
+        <option name="userSettingsFile" value="D:\idea-\apache-maven-3.6.1\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1zV983YWl7lpEh0W1o19jUvkpIf" />
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\IDEA_code\Hotel\src\main\webapp\WEB-INF\jsp\admin\orders" />
+      <recent name="D:\IDEA_code\Hotel\src\main\webapp\statics\front\images" />
+      <recent name="D:\IDEA_code\Hotel\src\main\webapp\statics\images" />
+      <recent name="D:\IDEA_code\Hotel\src\main\webapp\statics\front" />
+      <recent name="D:\IDEA_code\Hotel\src\main\webapp\statics" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\IDEA_code\Hotel" />
+      <recent name="D:\IDEA_code\Hotel\src\main\webapp\statics" />
+      <recent name="D:\IDEA_code\Hotel\src\main\webapp\statics\layui\images" />
+      <recent name="D:\IDEA_code\Hotel\src\main\webapp\WEB-INF\jsp\admin\menu" />
+      <recent name="D:\IDEA_code\Hotel\src\main\java\com\bdqn\utils" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.bdqn.utils" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.bdqn.service.Impl" />
+      <recent name="com.bdqn.vo" />
+      <recent name="com.bdqn.utils" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="JUnit.test.test">
+    <configuration name="test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Hotel" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.bdqn.controller.front.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.bdqn.controller.front" />
+      <option name="MAIN_CLASS_NAME" value="com.bdqn.controller.front.test" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="test.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Hotel" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.bdqn.controller.front.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.bdqn.controller.front" />
+      <option name="MAIN_CLASS_NAME" value="com.bdqn.controller.front.test" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="tomcat" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.0.50" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="OPEN_IN_BROWSER" value="false" />
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/" />
+      <option name="BROWSER_ID" value="a7bb68e0-33c0-4d6f-a81a-aac1fdb870c8" />
+      <option name="UPDATING_POLICY" value="update-resources" />
+      <deployment>
+        <artifact name="Hotel:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/" />
+          </settings>
+        </artifact>
+        <file path="D:/Project/hotel/upload">
+          <settings>
+            <option name="CONTEXT_PATH" value="/hotel/show" />
+          </settings>
+        </file>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_ssm_hotel1" />
+        <option name="JNDI_PORT" value="1089" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="58442" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="Hotel:war exploded" />
+        </option>
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.test.test" />
+        <item itemvalue="JUnit.test" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="350b4790-c0af-4fd8-9b72-ff2e7b24a682" name="Default Changelist" comment="" />
+      <created>1634222224126</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1634222224126</updated>
+      <workItem from="1634222227011" duration="2644000" />
+      <workItem from="1634306792860" duration="8628000" />
+      <workItem from="1634317914121" duration="637000" />
+      <workItem from="1634318558552" duration="406000" />
+      <workItem from="1634387344713" duration="8209000" />
+      <workItem from="1634462218745" duration="2782000" />
+      <workItem from="1634544627137" duration="2555000" />
+      <workItem from="1634561896906" duration="4006000" />
+      <workItem from="1634641972101" duration="1166000" />
+      <workItem from="1634643848450" duration="2196000" />
+      <workItem from="1634701586537" duration="1268000" />
+      <workItem from="1634703439594" duration="989000" />
+      <workItem from="1634902482104" duration="51000" />
+      <workItem from="1635082967225" duration="1228000" />
+      <workItem from="1635150368554" duration="635000" />
+      <workItem from="1635237340766" duration="17562000" />
+      <workItem from="1635330731741" duration="3056000" />
+      <workItem from="1635349102635" duration="1508000" />
+      <workItem from="1635410323215" duration="6083000" />
+      <workItem from="1635492954251" duration="594000" />
+      <workItem from="1635494820266" duration="599000" />
+      <workItem from="1635593051248" duration="3357000" />
+      <workItem from="1635692518341" duration="307000" />
+      <workItem from="1635781444548" duration="2205000" />
+      <workItem from="1635817065420" duration="14651000" />
+      <workItem from="1635870370044" duration="455000" />
+      <workItem from="1635870936802" duration="1096000" />
+      <workItem from="1635910517646" duration="1730000" />
+      <workItem from="1636272189183" duration="691000" />
+      <workItem from="1636377571515" duration="2521000" />
+      <workItem from="1636384089333" duration="3781000" />
+      <workItem from="1636463629602" duration="1506000" />
+      <workItem from="1636465750285" duration="708000" />
+      <workItem from="1636467227786" duration="4182000" />
+      <workItem from="1636471933924" duration="1097000" />
+      <workItem from="1636556069034" duration="4169000" />
+      <workItem from="1636647995396" duration="590000" />
+      <workItem from="1636695748937" duration="4804000" />
+      <workItem from="1636795116303" duration="19035000" />
+      <workItem from="1636857903125" duration="19855000" />
+      <workItem from="1636971312778" duration="6571000" />
+      <workItem from="1636989224264" duration="3250000" />
+      <workItem from="1637027836314" duration="4196000" />
+      <workItem from="1637163761781" duration="2695000" />
+      <workItem from="1637207363234" duration="10201000" />
+      <workItem from="1637288127517" duration="15956000" />
+      <workItem from="1637381157081" duration="3441000" />
+      <workItem from="1637391944436" duration="38527000" />
+      <workItem from="1637568017971" duration="10480000" />
+      <workItem from="1637586445811" duration="10098000" />
+      <workItem from="1637634216395" duration="13131000" />
+      <workItem from="1637738414002" duration="654000" />
+      <workItem from="1637809875558" duration="1269000" />
+      <workItem from="1637893306521" duration="91260000" />
+      <workItem from="1638156661112" duration="28116000" />
+      <workItem from="1638243744763" duration="8017000" />
+      <workItem from="1638280487505" duration="612000" />
+      <workItem from="1638798407847" duration="1147000" />
+      <workItem from="1638848492975" duration="114000" />
+      <workItem from="1638863154582" duration="1908000" />
+      <workItem from="1638865923252" duration="961000" />
+      <workItem from="1638935678154" duration="3729000" />
+      <workItem from="1639019185067" duration="1243000" />
+      <workItem from="1639295866967" duration="795000" />
+      <workItem from="1642356540039" duration="2897000" />
+      <workItem from="1642502947690" duration="6743000" />
+      <workItem from="1642948582604" duration="4893000" />
+      <workItem from="1643036745761" duration="1391000" />
+      <workItem from="1643222653395" duration="2767000" />
+      <workItem from="1643461894163" duration="599000" />
+      <workItem from="1643562524894" duration="1808000" />
+      <workItem from="1643752525800" duration="8017000" />
+      <workItem from="1645708494038" duration="951000" />
+      <workItem from="1645709509896" duration="2150000" />
+      <workItem from="1645891928027" duration="80000" />
+      <workItem from="1645944404711" duration="630000" />
+      <workItem from="1645949971970" duration="784000" />
+      <workItem from="1647242318934" duration="12065000" />
+      <workItem from="1647313785322" duration="247000" />
+      <workItem from="1647427438888" duration="1607000" />
+      <workItem from="1647516294416" duration="647000" />
+      <workItem from="1647859542406" duration="19000" />
+      <workItem from="1647860175417" duration="673000" />
+      <workItem from="1647873675353" duration="428000" />
+      <workItem from="1647874697035" duration="6000" />
+      <workItem from="1647879431379" duration="73000" />
+      <workItem from="1648470246111" duration="947000" />
+      <workItem from="1648471863723" duration="1881000" />
+      <workItem from="1649264381259" duration="45000" />
+      <workItem from="1649264438666" duration="6000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+</project>

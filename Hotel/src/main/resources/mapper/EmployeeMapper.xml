@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.bdqn.dao.EmployeeMapper">
+    
+    <select id="findEmployeeByLoginName" resultType="com.bdqn.entity.Employee">
+        select * from  sys_employee where loginName = #{loginName}
+    </select>
+
+    <select id="getEmployeeCountByDeptId" resultType="int">
+        select count(1) from  sys_employee where deptId = #{deptId}
+    </select>
+
+    <select id="getEmployeeCountByRoleId" resultType="int">
+        select count(1) from sys_employee t1
+        inner join sys_role_employee t2 on t1.id = t2.eid
+        where t2.rid = #{id}
+    </select>
+
+    <select id="findEmployeeList" resultType="com.bdqn.entity.Employee">
+        select e.*,d.deptName from sys_employee e
+        inner join sys_dept d on d.id = e.deptId
+        <where>
+            <if test="loginName != null and loginName != ''">
+            and e.loginName like concat('%',#{loginName},'%')
+            </if>
+            <if test="name != null and name != ''">
+                and e.name like concat('%',#{name},'%')
+            </if>
+            <if test="sex != null">
+                and e.sex = #{sex}
+            </if>
+            <if test="deptId != null">
+                and e.deptId = #{deptId}
+            </if>
+            <if test="startDate != null">
+                <![CDATA[ and e.hireDate >= #{startDate}]]>
+            </if>
+            <if test="endDate != null">
+                <![CDATA[ and e.hireDate <= #{endDate}]]>
+            </if>
+        </where>
+        order by e.id
+    </select>
+
+    <insert id="addEmployee">
+                insert into sys_employee(loginName,loginPwd,name,sex,deptId,hireDate,createdBy,createDate,remark)
+                VALUES(#{loginName},#{loginPwd},#{name},#{sex},#{deptId},#{hireDate},#{createdBy},#{createDate},#{remark})
+    </insert>
+
+    <update id="editEmployee">
+        update sys_employee
+        <set>
+            <if test="loginPwd != null and loginPwd != ''">
+                 loginPwd = #{loginPwd},
+            </if>
+            <if test="name != null and name != ''">
+                name = #{name},
+            </if>
+            <if test="sex != null">
+                sex = #{sex},
+            </if>
+            <if test="deptId != null">
+                deptId = #{deptId},
+            </if>
+            <if test="hireDate != null">
+                hireDate = #{hireDate},
+            </if>
+            <if test="remark != null and remark != ''">
+                remark = #{remark},
+            </if>
+            <if test="modifyBy != null">
+                modifyBy = #{modifyBy},
+            </if>
+            <if test="modifyDate != null">
+                modifyDate = #{modifyDate},
+            </if>
+        </set>
+        where id = #{id}
+    </update>
+
+    <delete id="deleteEmployeeById">
+        delete from sys_employee where id = #{id}
+    </delete>
+
+    <delete id="deleteEmployeeAndRole">
+        delete from sys_role_employee where eid = #{id}
+    </delete>
+
+    <insert id="addEmployeeRole">
+        insert into sys_role_employee (eid,rid) values(#{eid},#{rid})
+    </insert>
+</mapper>
