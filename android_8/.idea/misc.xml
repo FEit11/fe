@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/android/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.328125" />
+        <entry key="..\:/android/app/src/main/res/drawable/ic_launcher_background.xml" value="0.328125" />
+        <entry key="..\:/android/app/src/main/res/layout/activity_book.xml" value="0.22146739130434784" />
+        <entry key="..\:/android/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/android/app/src/main/res/layout/list_item.xml" value="0.22146739130434784" />
+        <entry key="..\:/android/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.328125" />
+        <entry key="..\:/android/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.328125" />
+        <entry key="..\:/android/happyDel/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/android/javalayout/src/main/res/layout/activity_main.xml" value="0.23505434782608695" />
+        <entry key="..\:/android/relative_layout/src/main/res/layout/activity_main.xml" value="0.307518115942029" />
+        <entry key="..\:/android/xml_java_layout/src/main/res/layout/activity_main.xml" value="0.2848731884057971" />
+        <entry key="..\:/android/xmllayout/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/android/xmllayout/src/main/res/layout/button_main.xml" value="0.2504528985507246" />
+        <entry key="..\:/android/xmllayout/src/main/res/layout/cell.xml" value="0.2930253623188406" />
+        <entry key="..\:/android/xmllayout/src/main/res/layout/combination_layout_main.xml" value="0.25" />
+        <entry key="..\:/android/xmllayout/src/main/res/layout/date_main.xml" value="0.33" />
+        <entry key="..\:/android/xmllayout/src/main/res/layout/edit_main.xml" value="0.33" />
+        <entry key="..\:/android/xmllayout/src/main/res/layout/frame_layout_main.xml" value="0.2418478260869565" />
+        <entry key="..\:/android/xmllayout/src/main/res/layout/grid_layout_main.xml" value="0.33" />
+        <entry key="..\:/android/xmllayout/src/main/res/layout/grid_main.xml" value="0.2930253623188406" />
+        <entry key="..\:/android/xmllayout/src/main/res/layout/image_main.xml" value="0.33" />
+        <entry key="..\:/android/xmllayout/src/main/res/layout/images_main.xml" value="0.35885416666666664" />
+        <entry key="..\:/android/xmllayout/src/main/res/layout/listview_main.xml" value="0.2890625" />
+        <entry key="..\:/android/xmllayout/src/main/res/layout/login_question.xml" value="0.9" />
+        <entry key="..\:/android/xmllayout/src/main/res/layout/main.xml" value="0.2890625" />
+        <entry key="..\:/android/xmllayout/src/main/res/layout/progressbar_main.xml" value="0.23229166666666667" />
+        <entry key="..\:/android/xmllayout/src/main/res/layout/relative_fragment.xml" value="0.2477355072463768" />
+        <entry key="..\:/android/xmllayout/src/main/res/layout/seekbar_main.xml" value="0.2980072463768116" />
+        <entry key="..\:/android/xmllayout/src/main/res/layout/show_main.xml" value="0.2477355072463768" />
+        <entry key="..\:/android/xmllayout/src/main/res/layout/spinner.xml" value="0.2930253623188406" />
+        <entry key="..\:/android/xmllayout/src/main/res/layout/table_layout_main.xml" value="0.33" />
+        <entry key="..\:/android/xmllayout/src/main/res/layout/wechat_fragment.xml" value="0.2477355072463768" />
+        <entry key="..\:/android/xmllayout/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.325" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

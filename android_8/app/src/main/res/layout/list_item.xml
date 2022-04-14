@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:id="@+id/tv_book_name"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:textSize="35dp"
+        android:text="list_item"
+        android:gravity="center"
+        android:layout_weight="1"></TextView>
+    <TextView
+        android:id="@+id/tv_category"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:textSize="35dp"
+        android:text="list_item"
+        android:gravity="center"
+        android:layout_weight="1"></TextView>
+    <TextView
+        android:id="@+id/tv_price"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:textSize="35dp"
+        android:text="list_item"
+        android:gravity="center"
+        android:layout_weight="1"></TextView>
+</LinearLayout>
